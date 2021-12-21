@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T02:03:10.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="3IsLQuja2xZeQwPrsPlO" version="15.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-21T02:05:01.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="oqb6Pl2EBbr_POKQBrK6" version="15.9.6" type="github" pages="3">
   <diagram name="模型调用流程" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1018" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -350,6 +350,21 @@
         </mxCell>
         <mxCell id="BbjFuBRBPNbL7Za8Veca-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="BbjFuBRBPNbL7Za8Veca-8">
           <mxGeometry x="50" y="190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BbjFuBRBPNbL7Za8Veca-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="BbjFuBRBPNbL7Za8Veca-8" source="BbjFuBRBPNbL7Za8Veca-30" target="BbjFuBRBPNbL7Za8Veca-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="170" as="sourcePoint" />
+            <mxPoint x="130" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="170" />
+              <mxPoint x="110" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbjFuBRBPNbL7Za8Veca-32" value="服务注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BbjFuBRBPNbL7Za8Veca-31">
+          <mxGeometry x="-0.2639" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BbjFuBRBPNbL7Za8Veca-9" value="模型库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="IIDQMriduIc7DnNmuJ5z-1">
           <mxGeometry x="820" y="80" width="100" height="580" as="geometry" />
